@@ -4,13 +4,16 @@
 
 ### A Home Assistant Add-on for the EMHASS module: Energy Management for Home Assistant
 
+> **Testing fork notice**  
+> This repository is a personal testing fork of the original EMHASS Add-on and EMHASS core project. All credits, original design, and upstream development work belong to the original EMHASS developers and contributors.
+
 </br>
 
 <div style="display: flex;">
 This add-on uses the EMHASS core module from the following GitHub repository:
 &nbsp; &nbsp;
-<a style="text-decoration:none" href="https://github.com/davidusb-geek/emhass">
-    <img src="https://raw.githubusercontent.com/davidusb-geek/emhass/master/docs/images/EMHASS_button.svg" alt="EMHASS">
+<a style="text-decoration:none" href="https://github.com/darekxan/emhass">
+    <img src="https://raw.githubusercontent.com/darekxan/emhass/master/docs/images/EMHASS_button.svg" alt="EMHASS">
 </a>
 </div>
 
@@ -20,7 +23,7 @@ This add-on uses the EMHASS core module from the following GitHub repository:
 The complete documentation for this module can be found here:
 &nbsp; &nbsp;
 <a style="text-decoration:none" href="https://emhass.readthedocs.io/en/latest/">
-    <img src="https://raw.githubusercontent.com/davidusb-geek/emhass/master/docs/images/Documentation_button.svg" alt="Documentation">
+    <img src="https://raw.githubusercontent.com/darekxan/emhass/master/docs/images/Documentation_button.svg" alt="Documentation">
 </a>
 </div>
 
@@ -30,7 +33,7 @@ The complete documentation for this module can be found here:
 For any questions on EMHASS or EMHASS-Add-on:
 &nbsp; &nbsp;
 <a style="text-decoration:none" href="https://community.home-assistant.io/t/emhass-an-energy-management-for-home-assistant/338126">
-    <img src="https://raw.githubusercontent.com/davidusb-geek/emhass/master/docs/images/Community_button.svg" alt="Community">
+    <img src="https://raw.githubusercontent.com/darekxan/emhass/master/docs/images/Community_button.svg" alt="Community">
 </a>
 </div>
 
@@ -39,8 +42,8 @@ For any questions on EMHASS or EMHASS-Add-on:
 <div style="display: flex;">
 For any Issues/Feature Requests for the EMHASS core module, create a new issue here:
 &nbsp; &nbsp;
-<a style="text-decoration:none" href="https://github.com/davidusb-geek/emhass/issues">
-    <img src="https://raw.githubusercontent.com/davidusb-geek/emhass/master/docs/images/Issues_button.svg" alt="Issues">
+<a style="text-decoration:none" href="https://github.com/darekxan/emhass/issues">
+    <img src="https://raw.githubusercontent.com/darekxan/emhass/master/docs/images/Issues_button.svg" alt="Issues">
 </a>
 </div>
 
@@ -52,7 +55,7 @@ The steps to install EMHASS as an Home Assistant addon:
 
     - To install add the EMHASS Add-on repository in the Home Assistant store, follow [these steps](https://www.home-assistant.io/common-tasks/os/#installing-third-party-add-ons)
 
-    - This will be: Configuration > Add-ons & Backups open the add-on store > Add the URL of the repository (e.g https://github.com/davidusb-geek/emhass-add-on) and then press "Add".
+    - This will be: Configuration > Add-ons & Backups open the add-on store > Add the URL of the repository (e.g https://github.com/darekxan/emhass-add-on) and then press "Add".
 
 2) Install the EMHASS Add-on 
     - Look for the EMHASS Add-on tab and when inside the Add-on click on `install`.
@@ -79,7 +82,7 @@ _Warning: This method will override the Docker image tag, and therefore will req
 2) Clone the `EMHASS-Add-on` repository into your `/addons` directory 
     ```bash
     cd ~/addons/
-    git clone https://github.com/davidusb-geek/emhass-add-on.git
+    git clone https://github.com/darekxan/emhass-add-on.git
     ```
 
 3) Specify what EMHASS version image to use
