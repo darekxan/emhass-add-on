@@ -1,6 +1,6 @@
 <!-- markdown file presented on the documentation tab -->
 
-# EMHASS Add-on
+# UNOFFICIAL EMHASS Add-on
 
 > **Testing fork notice**  
 > This repository is a personal testing fork of the original EMHASS Add-on and EMHASS core project. All credits, original design, and upstream development work belong to the original EMHASS developers and contributors.
@@ -16,7 +16,7 @@
       <img src="https://raw.githubusercontent.com/darekxan/emhass/master/docs/images/Issues_button.svg" alt="Issues">
   </a>
   <a style="text-decoration:none" href="https://github.com/darekxan/emhass-add-on">
-     <img src="https://raw.githubusercontent.com/darekxan/emhass/master/docs/images/EMHASS_Add_on_button.svg" alt="EMHASS Add-on">
+     <img src="https://raw.githubusercontent.com/darekxan/emhass/master/docs/images/EMHASS_Add_on_button.svg" alt="UNOFFICIAL EMHASS Add-on">
   </a>
   <a style="text-decoration:none" href="https://github.com/darekxan/emhass">
      <img src="https://raw.githubusercontent.com/darekxan/emhass/master/docs/images/EMHASS_button.svg" alt="EMHASS">
@@ -50,7 +50,7 @@ The complete documentation for this module can be found here:
 </br>
 
 <div style="display: flex;">
-For any questions on EMHASS or EMHASS-Add-on:
+For any questions on EMHASS or the UNOFFICIAL EMHASS Add-on:
 &nbsp; &nbsp;
 <a style="text-decoration:none" href="https://community.home-assistant.io/t/emhass-an-energy-management-for-home-assistant/338126">
     <img src="https://raw.githubusercontent.com/darekxan/emhass/master/docs/images/Community_button.svg" alt="Community">
@@ -67,12 +67,12 @@ For any Issues/Feature Requests for the EMHASS core module, create a new issue h
 </a>
 </div>
 
-## Developing EMHASS/EMHASS-Add-on
+## Developing EMHASS/UNOFFICIAL EMHASS Add-on
 
 #### **EMHASS**
 For those who want to develop the EMHASS package itself. Have a look at the [Develop page](https://emhass.readthedocs.io/en/latest/develop.html). _(EMHASS docs)_ 
 
-#### **EMHASS-Add-on**
+#### **UNOFFICIAL EMHASS Add-on**
 For those who want to test the EMHASS addon _(EMHASS inside of a virtual Home Assistant Environment)_. Have a look at [Test Markdown](./emhass/Test.md).
 
 ## License

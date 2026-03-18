@@ -1,27 +1,27 @@
-# Testing EMHASS-Add-on
+# Testing UNOFFICIAL EMHASS Add-on
 
 > **Testing fork notice**  
 > This repository is a personal testing fork of the original EMHASS Add-on and EMHASS core project. All credits, original design, and upstream development work belong to the original EMHASS developers and contributors.
 
-To fully test EMHASS and its EMHASS-Add-on integration, you will likely want to test the EMHASS addon in a Home Assistant Operating System environment (HAOS/Supervisor).
+To fully test EMHASS and its UNOFFICIAL EMHASS Add-on integration, you will likely want to test the UNOFFICIAL EMHASS Add-on in a Home Assistant Operating System environment (HAOS/Supervisor).
 
 The common Home Assistant options are:
 
-- Adding EMHASS-Add-on into a pre-existing Home Assistant environment.
-- Testing EMHASS-Add-on on a Home Assistant with virtual test environment with VS-Code Dev Containers.
+- Adding the UNOFFICIAL EMHASS Add-on into a pre-existing Home Assistant environment.
+- Testing the UNOFFICIAL EMHASS Add-on on a Home Assistant with a virtual test environment with VS-Code Dev Containers.
 
 See the following steps for both options.
 
-_Note: The following examples are for testing the EMHASS-Add-on integration with Home Assistant. To develop/test the EMHASS Package and its Docker container itself, check the EMHASS [Develop page](https://emhass.readthedocs.io/en/latest/develop.html)_.
+_Note: The following examples are for testing the UNOFFICIAL EMHASS Add-on integration with Home Assistant. To develop/test the EMHASS Package and its Docker container itself, check the EMHASS [Develop page](https://emhass.readthedocs.io/en/latest/develop.html)_.
 
 ## Develop on VS-Code Dev Container with Home Assistant test environment
 
-Using VS-Code Dev Containers, you can generate a Home Assistant test environment for the EMHASS Add-on before release. The steps to achieve this are as follows:  
+Using VS-Code Dev Containers, you can generate a Home Assistant test environment for the UNOFFICIAL EMHASS Add-on before release. The steps to achieve this are as follows:  
 </br>
 _Note: These following steps require VS-Code and the Dev Container Extension to be installed and operational. See ['Developing inside a Container'](https://code.visualstudio.com/docs/DevContainers/containers) for more information._
 
 
-1) Git clone `EMHASS-Add-on` repository and open VS-code 
+1) Git clone the `UNOFFICIAL EMHASS Add-on` repository and open VS-code 
     ```bash
     git clone https://github.com/darekxan/emhass-add-on.git
     cd emhass-add-on
@@ -48,9 +48,9 @@ _Note: These following steps require VS-Code and the Dev Container Extension to 
 
 _Note: If, on run, the emhass version looks off. Try: uninstalling Add-on, `check for updates` on Add-on Store page, and re-installing._
 
-## Adding EMHASS-Add-on into pre-existing Home Assistant environment
+## Adding the UNOFFICIAL EMHASS Add-on into a pre-existing Home Assistant environment
 
-If you would like to test a version of EMHASS-Add-on inside a pre-existing Home Assistant (with Supervisor) environment, see the following steps:
+If you would like to test a version of the UNOFFICIAL EMHASS Add-on inside a pre-existing Home Assistant (with Supervisor) environment, see the following steps:
 
 1) With your preferred method of choice, clone the emhass-add-on repository to the addons folder
     - One method is to use the [`Home Assistant Add-on: SSH server`](https://github.com/home-assistant/addons/blob/master/ssh/DOCS.md) addon to add:
@@ -81,7 +81,7 @@ If you would like to test a version of EMHASS-Add-on inside a pre-existing Home 
 _Note: If, on run, the emhass version looks off. Try: uninstalling Add-on, check for updates on the Add-on Store page, and re-install._
 
 ## Customizing EMHASS 
-If you are testing EMHASS-Add-on, it is likely that you would want to select a particular version of EMHASS to run and test.
+If you are testing the UNOFFICIAL EMHASS Add-on, it is likely that you would want to select a particular version of EMHASS to run and test.
 There are different methods of achieving this, depending on where the source of the desired EMHASS package resigns. See examples bellow: 
 
 ### Change the EMHASS Docker image version tag

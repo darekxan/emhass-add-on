@@ -1,6 +1,6 @@
-name: EMHASS-test
+name: UNOFFICIAL EMHASS Test Add-on
 description: Energy Management for Home Assistant (testing version)
-url: https://github.com/davidusb-geek/emhass
+url: https://github.com/darekxan/emhass
 version: test # pull the latest test image
 slug: emhass-test
 arch:
@@ -8,7 +8,7 @@ arch:
   - amd64
   # - armhf
   # - armv7
-image: "ghcr.io/davidusb-geek/emhass" #set if use image container repository
+image: "ghcr.io/darekxan/emhass" #set if use image container repository
 ports:
   5000/tcp: 5000
 ports_description:
@@ -26,7 +26,7 @@ ingress: true
 ingress_port: 5000
 ingress_stream: true
 panel_icon: mdi:home-lightning-bolt
-panel_title: EMHASS-test
+panel_title: UNOFFICIAL EMHASS Test Add-on
 schema:
   hass_url: "str?" #optional
   long_lived_token: "password?" #optional

@@ -1,26 +1,26 @@
-# Testing EMHASS-Add-on
+# Testing UNOFFICIAL EMHASS Test Add-on
 
-To fully test EMHASS and its EMHASS-Add-on integration, you will likely want to test the EMHASS addon in a Home Assistant Operating System environment (HAOS/Supervisor).
+To fully test EMHASS and its UNOFFICIAL EMHASS Test Add-on integration, you will likely want to test the UNOFFICIAL EMHASS Test Add-on in a Home Assistant Operating System environment (HAOS/Supervisor).
 
 The common Home Assistant options are:
 
-- Adding EMHASS-Add-on into a pre-existing Home Assistant environment.
-- Testing EMHASS-Add-on on a Home Assistant with virtual test environment with VS-Code Dev Containers.
+- Adding the UNOFFICIAL EMHASS Test Add-on into a pre-existing Home Assistant environment.
+- Testing the UNOFFICIAL EMHASS Test Add-on on a Home Assistant with a virtual test environment with VS-Code Dev Containers.
 
 See the following steps for both options.
 
-_Note: The following examples are for testing the EMHASS-Add-on integration with Home Assistant. To develop/test the EMHASS Package and its Docker container itself, check the EMHASS [Develop page](https://emhass.readthedocs.io/en/latest/develop.html)_.
+_Note: The following examples are for testing the UNOFFICIAL EMHASS Test Add-on integration with Home Assistant. To develop/test the EMHASS Package and its Docker container itself, check the EMHASS [Develop page](https://emhass.readthedocs.io/en/latest/develop.html)_.
 
 ## Develop on VS-Code Dev Container with Home Assistant test environment
 
-Using VS-Code Dev Containers, you can generate a Home Assistant test environment for the EMHASS Add-on before release. The steps to achieve this are as follows:  
+Using VS-Code Dev Containers, you can generate a Home Assistant test environment for the UNOFFICIAL EMHASS Test Add-on before release. The steps to achieve this are as follows:
 </br>
 _Note: These following steps require VS-Code and the Dev Container Extension to be installed and operational. See ['Developing inside a Container'](https://code.visualstudio.com/docs/DevContainers/containers) for more information._
 
 
-1) Git clone `EMHASS-Add-on` repository and open VS-code 
+1) Git clone the `UNOFFICIAL EMHASS Test Add-on` repository and open VS-code 
     ```bash
-    git clone https://github.com/davidusb-geek/emhass-add-on.git
+    git clone https://github.com/darekxan/emhass-add-on.git
     cd emhass-add-on
     code .
     ```
@@ -45,9 +45,9 @@ _Note: These following steps require VS-Code and the Dev Container Extension to 
 
 _Note: If, on run, the emhass version looks off. Try: uninstalling Add-on, `check for updates` on Add-on Store page, and re-installing._
 
-## Adding EMHASS-Add-on into pre-existing Home Assistant environment
+## Adding the UNOFFICIAL EMHASS Test Add-on into a pre-existing Home Assistant environment
 
-If you would like to test a version of EMHASS-Add-on inside a pre-existing Home Assistant (with Supervisor) environment, see the following steps:
+If you would like to test a version of the UNOFFICIAL EMHASS Test Add-on inside a pre-existing Home Assistant (with Supervisor) environment, see the following steps:
 
 1) With your preferred method of choice, clone the emhass-add-on repository to the addons folder
     - One method is to use the [`Home Assistant Add-on: SSH server`](https://github.com/home-assistant/addons/blob/master/ssh/DOCS.md) addon to add:
@@ -56,7 +56,7 @@ If you would like to test a version of EMHASS-Add-on inside a pre-existing Home 
       - Type commands to clone repository:
         ```bash
         cd ~/addons
-        git clone https://github.com/davidusb-geek/emhass-add-on
+        git clone https://github.com/darekxan/emhass-add-on
         cd ./emhass-add-on
         ```
 2) Adjust the EMHASS image to the version you would like to test. To adjust the image, you may select one of three options:
@@ -78,18 +78,18 @@ If you would like to test a version of EMHASS-Add-on inside a pre-existing Home 
 _Note: If, on run, the emhass version looks off. Try: uninstalling Add-on, check for updates on the Add-on Store page, and re-install._
 
 ## Customizing EMHASS 
-If you are testing EMHASS-Add-on, it is likely that you would want to select a particular version of EMHASS to run and test.
+If you are testing the UNOFFICIAL EMHASS Test Add-on, it is likely that you would want to select a particular version of EMHASS to run and test.
 There are different methods of achieving this, depending on where the source of the desired EMHASS package resigns. See examples bellow: 
 
 ### Change the EMHASS Docker image version tag
-If you would like to solely change the EMHASS version _(i.e. Image tag)_ of the EMHASS package. (keeping the Docker repository to [ghcr.io/davidusb-geek/emhass](https://github.com/davidusb-geek/emhass/pkgs/container/emhass)). Follow the steps bellow:
+If you would like to solely change the EMHASS version _(i.e. Image tag)_ of the EMHASS package. (keeping the Docker repository to [ghcr.io/darekxan/emhass](https://github.com/darekxan/emhass/pkgs/container/emhass)). Follow the steps bellow:
 
 1) Change the `version:` line in the emhass-add-on `config.yml`:
     ```bash
     emhassVersion=v0.20.0
     sed -i.bak "s/version:.*/version: $emhassVersion/g"  ~/addons/emhass-add-on/emhass/config.yml
     ```
-*Make sure the version you select matches one of the tagged images in https://github.com/davidusb-geek/emhass/pkgs/container/emhass*
+*Make sure the version you select matches one of the tagged images in https://github.com/darekxan/emhass/pkgs/container/emhass*
 
 ### Change the EMHASS Docker image repository
 If you would like to test your own forked version of EMHASS, the container repository can be changed to match your forked repository. The steps to accomplish this include:  
@@ -124,7 +124,7 @@ If you would like to test your own forked version of EMHASS, the container repos
 ```bash
 cd ~/addons/emhass-add-on/
 # git clone EMHASS repo (or forked emhass repo)
-git clone https://github.com/davidusb-geek/emhass.git ./emhass-git
+git clone https://github.com/darekxan/emhass.git ./emhass-git
 # copy required EMHASS files to the emhass-add-on root
 cp ./emhass-git/Dockerfile ./emhass/
 cp ./emhass-git/requirements.txt ./emhass/

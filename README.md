@@ -2,7 +2,7 @@
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Emhass_logo.svg" alt="EMHASS" width="300px">
 
-# EMHASS Add-on
+# UNOFFICIAL EMHASS Add-on
 
 ### A Home Assistant Add-on for the EMHASS module: Energy Management for Home Assistant
 > **Testing fork notice**  
@@ -38,7 +38,7 @@ The complete documentation for this module can be found here:
 </br>
 
 <div style="display: flex;">
-For any questions on EMHASS or EMHASS-Add-on:
+For any questions on EMHASS or the UNOFFICIAL EMHASS Add-on:
 &nbsp; &nbsp;
 <a style="text-decoration:none" href="https://community.home-assistant.io/t/emhass-an-energy-management-for-home-assistant/338126">
     <img src="https://raw.githubusercontent.com/darekxan/emhass/master/docs/images/Community_button.svg" alt="Community">
@@ -59,10 +59,10 @@ For any Issues/Feature Requests for the EMHASS core module, create a new issue h
 
 The steps to install EMHASS as a Home Assistant add-on:
 
-1) Add the EMHASS-Add-on repository to the HAOS add-on store  
+1) Add the UNOFFICIAL EMHASS Add-on repository to the HAOS add-on store  
 <a href="https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fdarekxan%2Femhass-add-on" target="_blank" rel="noreferrer noopener"><img src="https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg" alt="Open your Home Assistant instance and show the add-on repository dialog with a specific repository URL pre-filled." /></a>
 
-2) Install the EMHASS Add-on  
+2) Install the UNOFFICIAL EMHASS Add-on  
 <a href="https://my.home-assistant.io/redirect/supervisor_addon/?addon=5b918bf2_emhass" target="_blank" rel="noreferrer noopener"><img src="https://my.home-assistant.io/badges/supervisor_addon.svg" alt="Open your Home Assistant instance and show the dashboard of an add-on." /></a>  
 Click on `install`, the installation may take some time depending on your hardware.
 
@@ -85,15 +85,15 @@ Click on `install`, the installation may take some time depending on your hardwa
 ## Installation Method 1
 1) Add the EMHASS-Add-on repository to the HAOS add-on store
 
-    - To install add the EMHASS Add-on repository in the Home Assistant store, follow [these steps](https://www.home-assistant.io/common-tasks/os/#installing-a-third-party-add-on-repository)
+    - To install add the UNOFFICIAL EMHASS Add-on repository in the Home Assistant store, follow [these steps](https://www.home-assistant.io/common-tasks/os/#installing-a-third-party-add-on-repository)
 
     - This will be: Open the add-on store with the button below, or go to settings in HA, select add-on and the add-on store.
       <a href="https://my.home-assistant.io/redirect/supervisor_store/" target="_blank" rel="noreferrer noopener"><img src="https://my.home-assistant.io/badges/supervisor_store.svg" alt="Open your Home Assistant instance and show the add-on store." /></a>
        - Press the 3 dots and choose repository.
        - Add the URL of the repository (e.g https://github.com/darekxan/emhass-add-on) and then press "Add".
 
-2) Install the EMHASS Add-on 
-    - Look for the EMHASS Add-on tab and when inside the Add-on click on `install`.
+2) Install the UNOFFICIAL EMHASS Add-on 
+    - Look for the UNOFFICIAL EMHASS Add-on tab and when inside the Add-on click on `install`.
       - The installation may take some time depending on your hardware.
 
 3) Start the EMHASS addon
@@ -139,12 +139,12 @@ _Warning: This method will override the Docker image tag, and therefore will req
 
 </details>
 
-## Developing EMHASS/EMHASS-Add-on
+## Developing EMHASS/UNOFFICIAL EMHASS Add-on
 
 #### **EMHASS**
 For those who want to develop the EMHASS package itself. Have a look at the [Develop page](https://emhass.readthedocs.io/en/latest/develop.html). _(EMHASS docs)_ 
 
-#### **EMHASS-Add-on**
+#### **UNOFFICIAL EMHASS Add-on**
 For those who want to test the EMHASS addon _(EMHASS inside of a virtual Home Assistant Environment)_. Have a look at [Test Markdown](./emhass/Test.md).
 
 ## License
